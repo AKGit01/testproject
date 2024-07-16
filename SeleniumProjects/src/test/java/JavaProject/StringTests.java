@@ -20,9 +20,9 @@ public class StringTests {
 	public void reverseStringTest() {
 		
 		String reverseString = stringMethods.reverseStringStandard(toBeReversed);
-		System.out.println("Reverse String is: " + reverseString);
+		System.out.println("Reverse String is : " + reverseString);
 		reverseString = stringMethods.reverseStringStandard("123456789").toString();
-		System.out.println("Reverse String is: " + reverseString);
+		System.out.println("Reverse String is : " + reverseString);
 		
 	}
 	
